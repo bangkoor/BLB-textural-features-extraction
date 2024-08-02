@@ -2,7 +2,7 @@
 library(corrplot)
 
 # Load the data
-data <- read.csv("all_block_texture_3.csv", header=TRUE, sep=",")
+data <- read.csv("all_block_texture_only_2.csv", header=TRUE, sep=",")
 
 # Calculate the correlation matrix
 M <- cor(data)
